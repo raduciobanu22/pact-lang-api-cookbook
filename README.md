@@ -11,6 +11,12 @@
 | **ACCOUNTS**  | |
 | [Create Account](./accounts/create-account.js) | Create a KDA account. |
 | [Create And Fund Account](./accounts/transfer-create.js) | Create and fund a KDA account.|
+| **TRANSACTIONS** | |
+| [Get Transaction Status](./transactions/get-status.js)| Gets transaction status using the tx request key|
+| **Utils** | |
+| [Deploy contract](./utils/deploy-contract.js) | Deploy a Pact smart contract |
+| [Read state](./utils/read-state.js) | Read state of a contract |
+| [Verify Signature](./utils/verify-sig.js) | Verify a key pair signature |
 
 ## Setup
 1. Install dependencies

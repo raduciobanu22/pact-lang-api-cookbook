@@ -1,4 +1,4 @@
-const HELP = `node create-account.js k:{public-key} -- Replace {public-key} with an actual key`;
+const HELP = `Usage example: \n\nnode create-account.js k:{public-key} -- Replace {public-key} with an actual key`;
 
 const Pact = require("pact-lang-api");
 const NETWORK_ID = "testnet04";

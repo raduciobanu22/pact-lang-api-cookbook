@@ -1,4 +1,4 @@
-const HELP = `node transfer-create.js k:{public-key} amount -- Replace {public-key} with an actual key`;
+const HELP = `Usage example: \n\nnode transfer-create.js k:{public-key} amount -- Replace {public-key} with an actual key`;
 
 const Pact = require("pact-lang-api");
 const NETWORK_ID = "testnet04";
