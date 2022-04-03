@@ -63,7 +63,6 @@ async function rotate(account, newKey) {
   console.log(cmd);
 
   const response = await Pact.fetch.send(cmd, API_HOST);
-  console.log(response);
   console.log(`Request key: ${response.requestKeys[0]}`);
   console.log("Transaction pending...");
   const txResult = await Pact.fetch.listen(
