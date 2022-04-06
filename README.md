@@ -12,6 +12,7 @@
 | [Create Account](./accounts/create-account.js) | Create a KDA account. |
 | [Create And Fund Account](./accounts/transfer-create.js) | Create and fund a KDA account.|
 | [Rotate Keys](./accounts/rotate.js) | Update the keyset guarding the account. |
+| [Get Balance](./accounts/get-balance.js) | Get account balance. |
 | **TRANSACTIONS** | |
 | [Get Transaction Status](./transactions/get-status.js)| Gets transaction status using the tx request key|
 | **Utils** | |
